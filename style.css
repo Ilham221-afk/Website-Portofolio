@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to top right, #f2f4f7, #cdd8f4);
+  color: #1a1a1a;
+  padding: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.content,
+.text-content {
+  max-width: 700px;
+}
+
+.content h1,
+.text-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content p,
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  max-width: 400px;
+  height: auto;
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.contact-info a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
